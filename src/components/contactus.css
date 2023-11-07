@@ -1,0 +1,20 @@
+.formS {
+    padding-left:15rem;
+    display: flex;
+    
+  }
+  
+.info2{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
+  .widget{
+    padding-right: 30rem;
+  }
+
+  @media (min-width:360px){
+    .formS{
+     padding-left: 0rem;
+    }
+  }

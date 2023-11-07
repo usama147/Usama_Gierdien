@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:weight@300;400;500;600;700;800;900&display=swap');
+
+*{
+ 
+    font-family: 'Poppins' , sans-serif;
+}
+
+
+  .body{
+    background: #ffff !important;
+  }
+ .container{
+    background-color: #ffff;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+    padding:1rem;
+ }
+
+ .container  .box{
+
+    
+     position: relative;
+     width: 300px;
+     height: 400px;
+     margin-bottom: 2rem;
+     background: #232323;
+     border-radius: 20px;
+     transform-style: preserve-3d;
+     
+ }
+
+ 
+
+ .container  .box:hover::before{
+     opacity: 0.04;
+ }
+
+ .container  .box:hover::after{
+    opacity: 0.04;
+}
+
+.container .box .skill{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container .box:hover .skill{
+
+    top: 20px;
+    opacity: 1;
+}
+
+.container .box .buy{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75%);
+    color: #ffff;
+    background: #333;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container .box:hover .buy{
+bottom: 30px;
+opacity: 1;
+}
+
+
+
+.container .box .skillType{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 11;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform:translate3d(-50%,-50%,0px) rotate(-15deg);
+}
+
+.container .box:hover .skillType{
+    transform:translate3d(-50%,-50%,100px) rotate(-15deg);
+
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/*Media Queries Section*/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+@media only screen and (max-width: 900px) and (min-width: 750px)  {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 10rem;
+    padding-right: 33rem,
+  }
+}
+
+@media only screen and (max-width:740px) and (min-width:320px) {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 2rem;
+  }
+}

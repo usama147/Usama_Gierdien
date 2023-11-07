@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="skill">HTML5</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/HTML5.png" class="skillType">
+        </div> <div class="box">
+            <h2 class="skill">CSS</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/HTML5.png" class="skillType">
+        </div> <div class="box">
+            <h2 class="skill">Python</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/python.png" class="skillType">
+        </div> <div class="box">
+            <h2 class="skill">Javascript</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/JavaScript-Logo.png" class="skillType">
+        </div> <div class="box">
+            <h2 class="skill">ReactJS</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/reactJS.png" class="skillType">
+        </div> <div class="box">
+            <h2 class="skill">Wordpress</h2>
+            <a  href="#" class="buy">Click here</a>
+            <div class="circle"> </div>
+            <img src="./images/wordpress.png" class="skillType">
+        </div>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+
+        VanillaTilt.init(document.querySelectorAll(".box")
+        ),{
+            max:25,
+            speed:400
+        }
+
+    </script>
+</body>
+</html>
