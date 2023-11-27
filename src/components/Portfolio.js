@@ -31,7 +31,7 @@ export default class Porfolio extends Component {
                   </div>
                   <div className = "livedemo">
                        <section>
-                        <a href= {item.link} target="blank"><button class="button live_Demo">Demo</button></a><a href= {item.repo} target="blank"><button class="button repo">Repo</button></a>
+                        <a href= {item.link} target="blank"><button class="button live_Demo">Live</button></a>
                        </section>
                         </div>
                         

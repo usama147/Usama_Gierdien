@@ -129,19 +129,43 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"Github Finder",
-        "description":"Used to search for github profiles",
-        "imgurl":"https://dev-usama-gierdien.pantheonsite.io/wp-content/uploads/2021/05/github-finder.png",
-        "link":"https://github-finder-systems.netlify.app/",
-        "repo":"https://github.com/usama147/Github-Finder-Project"
+        "name":"Yooma",
+        "description":"Website I built with elementor while employed at ShiftOne Digital.",
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/Yooma-1.png",
+        "link":"https://www.yooma.co/",
+        // "repo":"https://github.com/usama147/Github-Finder-Project"
           
       },
       {
-        "name":"Python Lotto Programme",
-        "description":"Lotto programme",
-        "imgurl":"https://dev-usama-gierdien.pantheonsite.io/wp-content/uploads/2021/05/lotto.png",
-        "link":"https://repl.it/talk/share/Lotto-Programme/120330",
+        "name":"JustPhysio",
+        "description":"Website I built with elementor while Beaver Builder at ShiftOne Digital.",
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/justphysio-1.png",
+        "link":"https://justphysio.co.za",
         "repo":"https://github.com/usama147/LottoGame"
+      },
+      {
+        "name":"DK Website",
+        "description":"Website I built for the CEO of ShiftOne Digital with Beaver Builder.",  
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/dk.png",
+        "link":"https://dylankohlstadt.com/",
+        "repo":"https://github.com/usama147/Ecom-website"
+        
+      },
+      {
+        "name":"RRE",
+        "description":"Website I built with Beaver builder while employed at ShiftOne Digital.",  
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/rre.png",
+        "link":"https://rre.co.za",
+        "repo":"https://github.com/usama147/Ecom-website"
+        
+      },
+      {
+        "name":"Mamelani Projects",
+        "description":"Mamelani NPO Website Made with Wordpress & Elementor. Was a part of this project while interning at LC Studio",  
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/mamelani.png",
+        "link":"https://mamelani.org.za/",
+        "repo":"https://github.com/usama147/Ecom-website"
+        
       },
       {
         "name":"Ecommerce Website",
@@ -149,6 +173,22 @@ let resumeData = {
         "imgurl":"https://dev-usama-gierdien.pantheonsite.io/wp-content/uploads/2021/05/Ecom.png",
         "link":"https://usama147.github.io/Ecom-website/",
         "repo":"https://github.com/usama147/Ecom-website"
+        
+      },
+      {
+        "name":"Git Hub Finder",
+        "description":"A simple webpage that can be used to search for github profiles",  
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/githubfinder.png",
+        "link":"https://github-finder-systems.netlify.app/",
+        "repo":"https://github.com/usama147/Github-Finder-Project"
+        
+      },
+      {
+        "name":"Lotto Game",
+        "description":"A basic lotto programme",  
+        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/lotto.png",
+        "link":"https://replit.com/@usama1471/Lotto-Programmes",
+        "repo":"https://github.com/usama147/LottoGame"
         
       },
       {
