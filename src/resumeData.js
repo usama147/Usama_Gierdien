@@ -160,14 +160,6 @@ let resumeData = {
         
       },
       {
-        "name":"RRE",
-        "description":"Website I built with Beaver builder while employed at ShiftOne Digital.",  
-        "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/rre.png",
-        "link":"https://rre.co.za",
-        "repo":"https://github.com/usama147/Ecom-website"
-        
-      },
-      {
         "name":"Mamelani Projects",
         "description":"Mamelani NPO Website Made with Wordpress & Elementor. Was a part of this project while interning at LC Studio",  
         "imgurl":"https://dev-masjied-devsite.pantheonsite.io/wp-content/uploads/2023/11/mamelani.png",
