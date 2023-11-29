@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Usama_Gierdien/static/css/main.1c88fdc5.css",
-    "main.js": "/Usama_Gierdien/static/js/main.e50da3d4.js",
+    "main.css": "/Usama_Gierdien/static/css/main.3cdffb4c.css",
+    "main.js": "/Usama_Gierdien/static/js/main.f6e8557c.js",
     "static/media/python.png": "/Usama_Gierdien/static/media/python.7c4092446e4ae2e3c7c8.png",
     "static/media/reactJS.png": "/Usama_Gierdien/static/media/reactJS.183d5d155bd724b23c5e.png",
     "static/media/Usama Gierdien CV.pdf": "/Usama_Gierdien/static/media/Usama Gierdien CV.0443171ce3859ec17d1a.pdf",
@@ -9,11 +9,11 @@
     "static/media/wordpress.png": "/Usama_Gierdien/static/media/wordpress.711b30d1b724762b736e.png",
     "static/media/JavaScript-Logo.png": "/Usama_Gierdien/static/media/JavaScript-Logo.b08bf619012380efe105.png",
     "index.html": "/Usama_Gierdien/index.html",
-    "main.1c88fdc5.css.map": "/Usama_Gierdien/static/css/main.1c88fdc5.css.map",
-    "main.e50da3d4.js.map": "/Usama_Gierdien/static/js/main.e50da3d4.js.map"
+    "main.3cdffb4c.css.map": "/Usama_Gierdien/static/css/main.3cdffb4c.css.map",
+    "main.f6e8557c.js.map": "/Usama_Gierdien/static/js/main.f6e8557c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c88fdc5.css",
-    "static/js/main.e50da3d4.js"
+    "static/css/main.3cdffb4c.css",
+    "static/js/main.f6e8557c.js"
   ]
 }
